@@ -1,0 +1,54 @@
+@media (max-width: 988px) {
+    .my-name h3 {
+        font-size: 17px;
+    }
+    .btn-menu {
+        font-size: 16px;
+    }
+    .home-title h1 {
+        font-size: 2rem;
+    }
+    .home-title p {
+        font-size: 17px;
+    }
+    .main-img img {
+        width: 400px;
+        height: 400px;
+    }
+    .shake img {
+        width: 40px;
+        height: 40px;
+    }
+    body {
+        height: 700px;
+    }
+  }
+
+@media(max-width: 815px){
+    .shake img {
+        display: none;
+    }
+    .main-img img {
+        width: 350px;
+        height: 350px;
+    }
+    .home-title {
+        top: -80px;
+        left: 40px;
+    }
+    .home-title h1 {
+        font-size: 1.5rem;
+    }
+    .home-title p {
+        font-size: 15px;
+    }
+    .toggle-icon {
+        display: block;
+    }
+    .menu-site {
+        display: none !important;
+    }
+    body {
+        height: 850px;
+    }
+}

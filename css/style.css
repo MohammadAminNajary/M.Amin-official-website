@@ -1,0 +1,258 @@
+@font-face {
+    font-family: "Azonix";
+    src: url(../fonts/Azonix.otf);
+}
+@font-face {
+    font-family: 'Sans';
+    src: url('../fonts/Sans\ a4fran3.woff') format('woff');
+}
+
+* {
+    font-family: "Azonix",sans-serif;
+}
+
+body { 
+    background: linear-gradient(241deg, rgb(193, 193, 193),rgb(107, 107, 107)),linear-gradient(157.5deg, rgb(103,26,188) 0%, rgb(103,26,188) 39%,rgb(17, 149, 218) 39%, rgb(17, 149, 218) 56%,rgb(35, 132, 206) 56%, rgb(35, 132, 206) 60%,rgb(52, 116, 195) 60%, rgb(52, 116, 195) 68%,rgb(70, 99, 183) 68%, rgb(70, 99, 183) 86%,rgb(87, 83, 171) 86%, rgb(87, 83, 171) 100%),linear-gradient(286deg, rgb(103,26,188) 0%, rgb(103,26,188) 39%,rgb(17, 149, 218) 39%, rgb(17, 149, 218) 56%,rgb(35, 132, 206) 56%, rgb(35, 132, 206) 60%,rgb(52, 116, 195) 60%, rgb(52, 116, 195) 68%,rgb(70, 99, 183) 68%, rgb(70, 99, 183) 86%,rgb(87, 83, 171) 86%, rgb(87, 83, 171) 100%); background-blend-mode:overlay,overlay,normal;
+    height: 900px;
+    background-repeat:no-repeat;
+}
+
+header {
+    height: 80px;
+}
+
+p {
+    margin: 0;
+}
+
+.translateY {
+    transition: transform .5s;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  .translateY:hover {
+    -ms-transform:translateY(-5px); /* IE 9 */
+    -webkit-transform: translateY(-5px); /* Safari 3-8 */
+    transform: translateY(-5px);
+  }
+
+.my-name {
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+}
+.my-name h3 {
+    font-size: 20px;
+}
+
+.menu-site {
+    margin-right: 20px;
+}
+
+.menu-site > *{
+    margin: 0 10px;
+}
+
+.btn-menu {
+    color: rgb(172, 172, 172);
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    outline: none;
+    transition: all .5s;
+}
+
+.btn-menu:focus {
+    border: none;
+    outline: none;
+}
+
+.btn-menu:hover {
+    color: #ffffff;
+}
+
+.toggle-icon {
+    display: none;
+}
+
+.toggle-icon button {
+    cursor: pointer;
+    font-size: 30px;
+    color: rgb(189, 189, 189);
+    margin-right: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    border: none;
+    transition: all .5s;
+}
+.toggle-icon button:hover {
+    color: rgb(255, 255, 255);
+}
+.sidebar-menu {
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    background: linear-gradient(241deg, rgb(0, 0, 0),rgb(1, 4, 177)),linear-gradient(157.5deg, rgb(103,26,188) 0%, rgb(103,26,188) 39%,rgb(17, 149, 218) 39%, rgb(17, 149, 218) 56%,rgb(35, 132, 206) 56%, rgb(35, 132, 206) 60%,rgb(52, 116, 195) 60%, rgb(52, 116, 195) 68%,rgb(70, 99, 183) 68%, rgb(70, 99, 183) 86%,rgb(87, 83, 171) 86%, rgb(87, 83, 171) 100%),linear-gradient(286deg, rgb(103,26,188) 0%, rgb(103,26,188) 39%,rgb(17, 149, 218) 39%, rgb(17, 149, 218) 56%,rgb(35, 132, 206) 56%, rgb(35, 132, 206) 60%,rgb(52, 116, 195) 60%, rgb(52, 116, 195) 68%,rgb(70, 99, 183) 68%, rgb(70, 99, 183) 86%,rgb(87, 83, 171) 86%, rgb(87, 83, 171) 100%); background-blend-mode:overlay,overlay,normal;
+    border-radius: 8px;
+    width: 30%;
+    height: 400px;
+    z-index: 9999999;
+    top: 80px;
+    right: 0;
+}
+.sidebar-menu-items {
+    height: 400px;
+}
+
+
+main {
+    margin-top: 120px;
+}
+
+.main-img img{
+    width: 500px;
+    height: 500px;
+}
+.home-title {
+    color: rgb(182, 182, 182);
+    top: 50px;
+    left: 70px;
+}
+ @keyframes spaceboots {
+      0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+      10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+      20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+      30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+      40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+      50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+      60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+      70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+      80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+      90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+      100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+  }
+  .shake {
+      animation-name: spaceboots;
+      animation-duration: 5s;
+      transform-origin:50% 50%;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }
+
+.img-html{
+    top: 215px;
+    left: 5vw;
+}
+.img-css{
+    top: 270px;
+    left: 10vw;
+}
+.img-js{
+    top: 215px;
+    left: 14vw;
+}
+.img-python{
+    top: 290px;
+    left: 38vw;
+}
+.img-cSharp{
+    top: 240px;
+    left: 44vw;
+}
+.img-youtube{
+    top: 250px;
+    left: 51vw;
+}
+.img-dart {
+    top: 300px;
+    left: 3vw;
+}
+.img-microsoft {
+    top: 310px;
+    left: 46vw;
+}
+.img-kotlin {
+    top: 210px;
+    left: 37vw;
+}
+.img-xamarin {
+    top: 260px;
+    left: 29vw;
+}
+.img-angularjs {
+    top: 200px;
+    left: 23vw;
+}
+.img-react {
+    top: 300px;
+    left: 20vw;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.img-profile {
+    width: 150px;
+    height: 150px;
+    border: 2px solid skyblue;
+    border-radius: 100px;
+}
+
+.aboutMe {
+    background-color: rgba(255, 255, 255, 0.164);
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin: 0 20px;
+}
+
+.aboutMe >* {
+    text-align: right;
+    direction: rtl;
+    color: white;
+    font-family: 'Sans';
+}
+.aboutMe h1 {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+/* -------------------------------------------------------------------- */
+
+.skills-title {
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: 900;
+    border-bottom: 2px solid skyblue;
+    margin-bottom: 30px;
+}
+
+.main-skills {
+    margin-top: 50px !important;
+}
+
+.row {
+    margin: 0 !important;
+}
+.skill-item {
+    padding: 20px 120px;
+}
+.progress-bar {
+    background-color: rgb(4, 89, 185);
+}
+.progress-title {
+    color: rgb(212, 212, 212);
+    font-size: 24px;
+}
+
+/* -------------------------------------------------------------------- */
+
+.contact-item {
+    color: rgb(218, 218, 218);
+}
+
+.contact-item img{
+    width: 60px;
+    height: 60px;
+}

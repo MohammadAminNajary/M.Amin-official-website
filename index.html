@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/A.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/MediaQuery/home.css">
+    <title>MyWebSite</title>
+</head>
+<body>
+        <header class="d-flex justify-content-between align-items-center w-100">
+            <div class="my-name">
+                <h3>M.Amin Najary</h3>
+            </div>
+            <div class="menu-site d-flex">
+                <div><a href="index.html"><button class="btn-menu translateY">Home</button></a></div>
+                <div><a href="Pages/AboutMe.html"><button class="btn-menu translateY">About Me</button></a></div>
+                <div><a href="Pages/Skills.html"><button class="btn-menu translateY">Skills</button></a></div>
+                <div><a href="Pages/Contact.html"><button class="btn-menu translateY">Contact</button></a></div>
+            </div>
+            <div class="toggle-icon">
+                <button onclick="showMenu()"><i class="fas fa-bars"></i></button>
+            </div>
+            <div class="sidebar-menu">
+                <div class="sidebar-menu-items d-flex justify-content-around align-items-center flex-column position-absolute w-100">
+                    <div><a href="index.html"><button class="btn-menu translateY">Home</button></a></div>
+                    <div><a href="Pages/AboutMe.html"><button class="btn-menu translateY">About Me</button></a></div>
+                    <div><a href="Pages/Skills.html"><button class="btn-menu translateY">Skills</button></a></div>
+                    <div><a href="Pages/Contact.html"><button class="btn-menu translateY">Contact</button></a></div>
+                </div>
+            </div>
+        </header>
+        <main class="main-home d-flex justify-content-md-between justify-content-center align-items-center w-100 position-relative">
+            <div class="home-title position-absolute">
+                <h1>Welcome</h1>
+                <p>All of my information is on this site...</p>
+            </div>
+            <div>
+                <div class="shake img-html position-absolute">
+                    <img src="img/icons8-html-5-48.png">
+                </div>
+                <div class="shake img-css position-absolute">
+                    <img src="img/icons8-css3-48.png">
+                </div>
+                <div class="shake img-js position-absolute">
+                    <img src="img/icons8-javascript-48.png">
+                </div>
+                <div class="shake img-cSharp position-absolute">
+                    <img src="img/icons8-c-sharp-logo-48.png">
+                </div>
+                <div class="shake img-python position-absolute">
+                    <img src="img/icons8-python-48.png">
+                </div>
+                <div class="shake img-youtube position-absolute">
+                    <img src="img/icons8-youtube-48.png">
+                </div>
+                <div class="shake img-dart position-absolute">
+                    <img src="img/icons8-dart-48.png">
+                </div>
+                <div class="shake img-xamarin position-absolute">
+                    <img src="img/icons8-xamarin-48.png">
+                </div>
+                <div class="shake img-react position-absolute">
+                    <img src="img/icons8-react-native-48.png">
+                </div>
+                <div class="shake img-microsoft position-absolute">
+                    <img src="img/icons8-microsoft-48.png">
+                </div>
+                <div class="shake img-angularjs position-absolute">
+                    <img src="img/icons8-angularjs-48.png">
+                </div>
+                <div class="shake img-kotlin position-absolute">
+                    <img src="img/icons8-kotlin-48.png">
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="3000" class="main-img">
+                <img src="img/Pngtreeflat design concept of programmers.png">
+            </div>
+        </main>
+</body>
+<script src="js/toggle.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>

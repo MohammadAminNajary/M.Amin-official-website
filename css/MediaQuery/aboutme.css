@@ -1,0 +1,33 @@
+@media (max-width: 988px) {
+    .my-name h3 {
+        font-size: 17px;
+    }
+    .btn-menu {
+        font-size: 16px;
+    }
+  }
+
+@media(max-width: 815px){
+    .toggle-icon {
+        display: block;
+    }
+    .menu-site {
+        display: none !important;
+    }
+    .aboutMe p {
+        font-size: 15px;
+        text-align: justify;
+    }
+    .aboutMe h1 {
+        font-size: 20px;
+    }
+    .img-profile {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .aboutMe {
+        padding: 20px 20px;
+        margin: 0 20px;
+    }
+}

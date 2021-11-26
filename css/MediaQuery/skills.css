@@ -1,0 +1,36 @@
+@media (max-width: 988px) {
+    .my-name h3 {
+        font-size: 17px;
+    }
+    .btn-menu {
+        font-size: 16px;
+    }
+    .skill-item {
+        padding: 20px 10px;
+    }
+    .skills-title {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+  }
+
+@media(max-width: 815px){
+    .toggle-icon {
+        display: block;
+    }
+    .menu-site {
+        display: none !important;
+    }
+    .progress-title {
+        color: rgb(212, 212, 212);
+        font-size: 18px;
+    }
+    .skill-item {
+        padding: 20px 14px;
+        margin: 0 70px;
+    }
+    body {
+        height: auto;
+    }
+    
+}
