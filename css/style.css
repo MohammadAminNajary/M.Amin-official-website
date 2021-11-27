@@ -96,7 +96,7 @@ p {
     flex-direction: column;
     background: linear-gradient(241deg, rgb(0, 0, 0),rgb(1, 4, 177)),linear-gradient(157.5deg, rgb(103,26,188) 0%, rgb(103,26,188) 39%,rgb(17, 149, 218) 39%, rgb(17, 149, 218) 56%,rgb(35, 132, 206) 56%, rgb(35, 132, 206) 60%,rgb(52, 116, 195) 60%, rgb(52, 116, 195) 68%,rgb(70, 99, 183) 68%, rgb(70, 99, 183) 86%,rgb(87, 83, 171) 86%, rgb(87, 83, 171) 100%),linear-gradient(286deg, rgb(103,26,188) 0%, rgb(103,26,188) 39%,rgb(17, 149, 218) 39%, rgb(17, 149, 218) 56%,rgb(35, 132, 206) 56%, rgb(35, 132, 206) 60%,rgb(52, 116, 195) 60%, rgb(52, 116, 195) 68%,rgb(70, 99, 183) 68%, rgb(70, 99, 183) 86%,rgb(87, 83, 171) 86%, rgb(87, 83, 171) 100%); background-blend-mode:overlay,overlay,normal;
     border-radius: 8px;
-    width: 40%;
+    width: 30%;
     height: 400px;
     z-index: 9999999;
     top: 80px;
