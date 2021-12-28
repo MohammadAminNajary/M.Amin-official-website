@@ -71,6 +71,7 @@ p {
     color: #ffffff;
 }
 
+
 .toggle-icon {
     display: none;
 }
@@ -95,8 +96,9 @@ p {
     position: absolute;
     flex-direction: column;
     background: linear-gradient(241deg, rgb(0, 0, 0),rgb(1, 4, 177)),linear-gradient(157.5deg, rgb(103,26,188) 0%, rgb(103,26,188) 39%,rgb(17, 149, 218) 39%, rgb(17, 149, 218) 56%,rgb(35, 132, 206) 56%, rgb(35, 132, 206) 60%,rgb(52, 116, 195) 60%, rgb(52, 116, 195) 68%,rgb(70, 99, 183) 68%, rgb(70, 99, 183) 86%,rgb(87, 83, 171) 86%, rgb(87, 83, 171) 100%),linear-gradient(286deg, rgb(103,26,188) 0%, rgb(103,26,188) 39%,rgb(17, 149, 218) 39%, rgb(17, 149, 218) 56%,rgb(35, 132, 206) 56%, rgb(35, 132, 206) 60%,rgb(52, 116, 195) 60%, rgb(52, 116, 195) 68%,rgb(70, 99, 183) 68%, rgb(70, 99, 183) 86%,rgb(87, 83, 171) 86%, rgb(87, 83, 171) 100%); background-blend-mode:overlay,overlay,normal;
-    border-radius: 8px;
-    width: 40%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 30%;
     height: 400px;
     z-index: 9999999;
     top: 80px;
@@ -195,12 +197,14 @@ main {
 .img-profile {
     width: 150px;
     height: 150px;
-    border: 2px solid skyblue;
+    border: 1px solid skyblue;
     border-radius: 100px;
 }
 
 .aboutMe {
-    background-color: rgba(255, 255, 255, 0.164);
+    background-color: rgba(46, 8, 8, 0.164);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     border-radius: 20px;
     padding: 20px 30px;
     margin: 0 20px;
@@ -215,9 +219,6 @@ main {
 .aboutMe h1 {
     margin-top: 10px;
     font-size: 30px;
-}
-.aboutMe p {
-     letter-spacing: .5px;
 }
 
 /* -------------------------------------------------------------------- */
